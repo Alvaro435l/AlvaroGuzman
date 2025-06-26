@@ -10,8 +10,8 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #0f172a;
-      color: #e2e8f0;
+      background-color: #1e1b2e;
+      color: #f1f5f9;
     }
 
     .container {
@@ -24,14 +24,14 @@
     .columna {
       flex: 1 1 600px;
       margin: 1rem;
-      background-color: #1e293b;
-      border-radius: 10px;
+      background-color: #2b2640;
+      border-radius: 12px;
       padding: 1.5rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
     }
 
     h1, h2 {
-      color: #60a5fa;
+      color: #7dd3fc;
       text-align: center;
     }
 
@@ -61,7 +61,7 @@
     .frase {
       text-align: center;
       font-style: italic;
-      color: #94a3b8;
+      color: #a5b4fc;
       margin-top: -1rem;
       font-size: 1rem;
     }
@@ -74,10 +74,15 @@
     }
 
     .card {
-      background-color: #334155;
+      background-color: #433b68;
       border-radius: 10px;
       padding: 1rem;
       text-align: center;
+      transition: background 0.3s ease;
+    }
+
+    .card:hover {
+      background-color: #6366f1;
     }
 
     .card img {
@@ -93,20 +98,30 @@
 
     .section a {
       text-decoration: none;
-      color: #3b82f6;
+      color: #38bdf8;
       font-weight: bold;
     }
 
     footer {
       text-align: center;
       padding: 1rem;
-      background-color: #0f172a;
+      background-color: #1e1b2e;
       font-size: 0.9rem;
-      color: #94a3b8;
+      color: #a1a1aa;
+    }
+
+    .gif-floating {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      width: 120px;
+      z-index: 999;
     }
   </style>
 </head>
 <body>
+
+  <img src="zergling-starcraft.gif" alt="GIF decorativo" class="gif-floating">
 
   <div class="container">
     <div class="columna">
@@ -167,18 +182,20 @@
             </a>
           </div>
         </div>
-      <<div class="section">
-  <h2>Amigos</h2>
-  <p>
-    <a href="https://crimsonkiller18.github.io/Piero-Polar-Salazar/" target="_blank">
-      Piero Polar Salazar
-    </a>
-  </p>
-  <p>
-    <a href="https://elizapov.github.io/Daniela-Elizabeth/" target="_blank">
-      Daniela Elizabeth Flores Turpo
-    </a>
-  </p>
+      </div>
+
+      <div class="section">
+        <h2>Amigos</h2>
+        <p>
+          <a href="https://crimsonkiller18.github.io/Piero-Polar-Salazar/" target="_blank">
+            Piero Polar Salazar
+          </a>
+        </p>
+        <p>
+          <a href="https://elizapov.github.io/Daniela-Elizabeth/" target="_blank">
+            Daniela Elizabeth Flores Turpo
+          </a>
+        </p>
       </div>
     </div>
   </div>
